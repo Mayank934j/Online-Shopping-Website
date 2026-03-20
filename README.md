@@ -26,9 +26,9 @@ An e-commerce web application that allows users to browse products, add items to
 ## 📸 Screenshots
 
 ![Home Page](home_page.png)  
-![Product Page](product_page.png)  
-![Products Section](products_section.png)  
-![Footer](footer_section.png)
+![Product Page](product.png)  
+![Products Section](product2.png)  
+![Footer](bottom_page.png)
 
 ---
 
