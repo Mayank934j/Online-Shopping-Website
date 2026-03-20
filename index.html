@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo"></div>
+            </div>
+            <div class="nav-address border">
+                <p class="add-first">Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="add-second">India</p>
+                </div>
+            </div>
+            <div class="nav-search">
+                <select id="search-select">
+                    <option>All</option>
+                </select>
+                <input id="search-input" type="search" placeholder=" Search Amazon">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="language-box border" onclick="toggleMenu()">
+                <img src="https://flagcdn.com/w40/us.png" class="flag">
+                EN
+                <span class="arrow">▼</span>
+            </div>
+            <div class="nav-signin border" onclick="toggleMenu()">
+                <p><span>Hello,sign in</span></p>
+                <p class="nav-second">Account & Lists</p>
+                <span class="arrow2">▼</span>
+            </div>
+            <div class="nav-return border">
+                <p><span>Returns</span></p>
+                <p class="nav-second">& Orders</p>
+            </div>
+            <div class="nav-cart border">
+                <i class="fa-solid fa-cart-arrow-down"></i>
+                Cart
+            </div>
+        </div>
+        <div class="panel">
+            <div class="panel-a border">
+                <i class="fa-solid fa-bars"></i>
+                All
+            </div>
+            <div class="panel-ops ">
+                <p class="border">Today's Deals</p>
+                <p class="border">Prime Video</p>
+                <p class="border">Registry</p>
+                <p class="border">Gift Cards</p>
+                <p class="border">Customer Service</p>
+                <p class="border">Sell</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="hero-section">
+        <div class="hero-msg">
+            <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local
+                delivery. <a>Click here to go to amazon.in</a></p>
+        </div>
+    </div>
+
+    <div class="shop-section">
+        <!-- raw1 -->
+        <div class="box1 box">
+            <div class="box-content">
+                <h2>The Valentine's Day Edit</h2>
+                <img class="r-img" src="../img/box-r1-img.png" alt="">
+                <p class="box-bottom">Shop Shopbop now</p>
+            </div>
+        </div>
+        <div class="box2 box">
+            <div class="box-content">
+                <h2>Valentine's Day Gifts for Him</h2>
+                <img class="r-img" src="../img/box-r1-img2.png" alt="">
+                <p class="box-bottom">Discover more in Home</p>
+            </div>
+        </div>
+        <div class="box3 box">
+            <div class="box-content">
+                <h2>Shop Fashion for less</h2>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <img src="../img/box3a-img.png" alt="">
+                        <p>Jeans under $50</p>
+                    </div>
+
+                    <div class="grid-item">
+                        <img src="../img/box3b-img.png" alt="">
+                        <p>Top under $25</p>
+                    </div>
+
+                    <div class="grid-item">
+                        <img src="../img/box3c-img.png" alt="">
+                        <p>Dresses under $30</p>
+                    </div>
+
+                    <div class="grid-item">
+                        <img src="../img/box3d-img.png" alt="">
+                        <p>Shoes under $50</p>
+                    </div>
+                </div>
+                <p class="box-bottom">See all deals</p>
+            </div>
+        </div>
+        <div class="box4 box">
+            <div class="box-content">
+                <h2>Top categories in Kitchen appliances</h2>
+                <div class="grid-container2">
+                    <div class="grid-item2">
+                        <img src="../img/box4a-img.png" alt="">
+                        <p>Cooker</p>
+                    </div>
+
+                    <div class="grid-item2">
+                        <img src="../img/box4b-img.png" alt="">
+                        <p>Coffee</p>
+                    </div>
+
+                    <div class="grid-item2">
+                        <img src="../img/box4c-img.png" alt="">
+                        <p>Pots and Pans</p>
+                    </div>
+
+                    <div class="grid-item2">
+                        <img src="../img/box4d-img.png" alt="">
+                        <p>Kettles</p>
+                    </div>
+                </div>
+                <p class="box-bottom">Explore all products in Kitchen</p>
+            </div>
+        </div>
+        <!-- raw2 -->
+        <div class="box1 box">
+            <div class="box-content">
+                <h2>Elevate your Electronics</h2>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <img src="../img/box-r2-1a-img.png" alt="">
+                        <p>Headphones</p>
+                    </div>
+
+                    <div class="grid-item">
+                        <img src="../img/box-r2-1b-img.png" alt="">
+                        <p>Tablets</p>
+                    </div>
+
+                    <div class="grid-item">
+                        <img src="../img/box-r2-1c-img.png" alt="">
+                        <p>Gaming</p>
+                    </div>
+
+                    <div class="grid-item">
+                        <img src="../img/box-r2-1d-img.png" alt="">
+                        <p>Speakers</p>
+                    </div>
+                </div>
+                <p class="box-bottom">Discover more</p>
+            </div>
+        </div>
+        <div class="box2 box">
+            <div class="box-content">
+                <h2>Level up your beauty routine</h2>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <img src="../img/box-r2-2a-img.png" alt="">
+                        <p>Makeup</p>
+                    </div>
+
+                    <div class="grid-item">
+                        <img src="../img/box-r2-2b-img.png" alt="">
+                        <p>Brushes</p>
+                    </div>
+
+                    <div class="grid-item">
+                        <img src="../img/box-r2-2c-img.png" alt="">
+                        <p>Sponges</p>
+                    </div>
+
+                    <div class="grid-item">
+                        <img src="../img/box-r2-2d-img.png" alt="">
+                        <p>Mirrors</p>
+                    </div>
+                </div>
+                <p class="box-bottom">See more</p>
+            </div>
+        </div>
+        <div class="box3 box">
+            <div class="box-content">
+                <h2>Gaming merchandise</h2>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <img src="../img/box-r2-3a-img.png" alt="">
+                        <p>Apparel</p>
+                    </div>
+
+                    <div class="grid-item">
+                        <img src="../img/box-r2-3b-img.png" alt="">
+                        <p>Hats</p>
+                    </div>
+
+                    <div class="grid-item">
+                        <img src="../img/box-r2-3c-img.png" alt="">
+                        <p>Action Figures</p>
+                    </div>
+
+                    <div class="grid-item">
+                        <img src="../img/box-r2-3d-img.png" alt="">
+                        <p>Mugs</p>
+                    </div>
+                </div>
+                <p class="box-bottom">See more</p>
+            </div>
+        </div>
+        <div class="box4 box">
+            <div class="box-content">
+                <h2>Have more fun with family</h2>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <img src="../img/box-r2-4a-img.png" alt="">
+                        <p>Outdoor Play Sets</p>
+                    </div>
+
+                    <div class="grid-item">
+                        <img src="../img/box-r2-4b-img.png" alt="">
+                        <p>Learning Toys</p>
+                    </div>
+
+                    <div class="grid-item">
+                        <img src="../img/box-r2-4c-img.png" alt="">
+                        <p>Action Figures</p>
+                    </div>
+
+                    <div class="grid-item">
+                        <img src="../img/box-r2-4d-img.png" alt="">
+                        <p>Pretend Play Toys</p>
+                    </div>
+                </div>
+                <p class="box-bottom">Explore all products in Kitchen</p>
+            </div>
+        </div>
+        <!-- raw3 -->
+        <div class="box rbox">
+            <h2>Best Sellers in Computers & Accessories</h2>
+            <div class="slider-container">
+                <button class="arrowr left">&#10094;</button>
+                <div class="product-slider">
+                    <div class="product">
+                        <img src="../img/2product1.png" alt="">
+                    </div>
+
+                    <div class="product">
+                        <img src="../img/2product2.png" alt="">
+                    </div>
+
+                    <div class="product">
+                        <img src="../img/2product3.png" alt="">
+                    </div>
+
+                    <div class="product">
+                        <img src="../img/2product4.png" alt="">
+                    </div>
+
+                    <div class="product">
+                        <img src="../img/2product5.png" alt="">
+                    </div>
+
+                    <div class="product">
+                        <img src="../img/2product6.png" alt="">
+                    </div>
+
+                    <div class="product">
+                        <img src="../img/2product7.png" alt="">
+                    </div>
+
+                    <div class="product">
+                        <img src="../img/2product8.png" alt="">
+                    </div>
+                </div>
+
+                <button class="arrowr right">&#10095;</button>
+            </div>
+        </div>
+        <!-- raw4 -->
+        <div class="box1 box">
+            <div class="box-content">
+                <h2>Get your game on</h2>
+                <div class="box1-img"></div>
+                <p class="box-bottom">Shop gaming</p>
+            </div>
+        </div>
+        <div class="box2 box">
+            <div class="box-content">
+                <h2>Small space solutions</h2>
+                <img class="r-img" src="../img/box-r3-2-img.png" alt="">
+                <p class="box-bottom">Shop small space furniture & décor</p>
+            </div>
+        </div>
+        <div class="box3 box">
+            <div class="box-content">
+                <h2>Save with Amazon Outlet</h2>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <img src="../img/box-r3-1a-img.png" alt="">
+                        <p>Fashion</p>
+                    </div>
+
+                    <div class="grid-item">
+                        <img src="../img/box-r3-1b-img.png" alt="">
+                        <p>Electronics</p>
+                    </div>
+
+                    <div class="grid-item">
+                        <img src="../img/box-r3-1c-img.png" alt="">
+                        <p>Home and Kitchen</p>
+                    </div>
+
+                    <div class="grid-item">
+                        <img src="../img/box-r3-1d-img.png" alt="">
+                        <p>Home improvement</p>
+                    </div>
+                </div>
+                <p class="box-bottom">Shop President's Day Sale</p>
+            </div>
+        </div>
+        <div class="box4 box">
+            <div class="box-content">
+                <h2>Shop for your home essentials</h2>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <img src="../img/box2a-img.png" alt="">
+                        <p>Cleaning Tools</p>
+                    </div>
+
+                    <div class="grid-item">
+                        <img src="../img/box2b-img.png" alt="">
+                        <p>Home Storage</p>
+                    </div>
+
+                    <div class="grid-item">
+                        <img src="../img/box2c-img.png" alt="">
+                        <p>Home Decor</p>
+                    </div>
+
+                    <div class="grid-item">
+                        <img src="../img/box2d-img.png" alt="">
+                        <p>Bedding</p>
+                    </div>
+                </div>
+                <p class="box-bottom">Discover more in Home</p>
+            </div>
+        </div>
+        <!-- raw5 -->
+        <div class="box1 box">
+            <div class="box-content">
+                <h2>Up to 50% off sneakers</h2>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <img src="../img/box-r4-1a-img.png" alt="">
+                        <p>Women's</p>
+                    </div>
+
+                    <div class="grid-item">
+                        <img src="../img/box-r4-1b-img.png" alt="">
+                        <p>Men's</p>
+                    </div>
+
+                    <div class="grid-item">
+                        <img src="../img/box-r4-1c-img.png" alt="">
+                        <p>Boy's</p>
+                    </div>
+
+                    <div class="grid-item">
+                        <img src="../img/box-r4-1d-img.png" alt="">
+                        <p>Girl's</p>
+                    </div>
+                </div>
+                <p class="box-bottom">Shop Zappos</p>
+            </div>
+        </div>
+        <div class="box2 box">
+            <div class="box-content">
+                <h2>Up to 50% off boots</h2>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <img src="../img/box-r4-2a-img.png" alt="">
+                        <p>Women's</p>
+                    </div>
+
+                    <div class="grid-item">
+                        <img src="../img/box-r4-2b-img.png" alt="">
+                        <p>Men's</p>
+                    </div>
+
+                    <div class="grid-item">
+                        <img src="../img/box-r4-2c-img.png" alt="">
+                        <p>Boy's</p>
+                    </div>
+
+                    <div class="grid-item">
+                        <img src="../img/box-r4-2d-img.png" alt="">
+                        <p>Girl's</p>
+                    </div>
+                </div>
+                <p class="box-bottom">Shop Zappos</p>
+            </div>
+        </div>
+        <div class="box3 box">
+            <div class="box-content">
+                <h2>Shop by category</h2>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <img src="../img/box-r4-3a-img.png" alt="">
+                        <p>Fashion</p>
+                    </div>
+
+                    <div class="grid-item">
+                        <img src="../img/box-r4-4b-img.png" alt="">
+                        <p>Beauty</p>
+                    </div>
+
+                    <div class="grid-item">
+                        <img src="../img/box-r4-4c-img.png" alt="">
+                        <p>Electronics</p>
+                    </div>
+
+                    <div class="grid-item">
+                        <img src="../img/box-r4-4d-img.png" alt="">
+                        <p>Home & Kitchen</p>
+                    </div>
+                </div>
+                <p class="box-bottom">Shop President's Day Sale</p>
+            </div>
+        </div>
+        <div class="box4 box">
+            <div class="box-content">
+                <h2>Shop activewear styles from Shopbop</h2>
+                <div class="grid-container2">
+                    <div class="grid-item2">
+                        <img src="../img/box-r4-4a-img.png" alt="">
+                        <p>The ski Shop</p>
+                    </div>
+
+                    <div class="grid-item2">
+                        <img src="../img/box-r4-3b-img.png" alt="">
+                        <p>Yoga & pilates</p>
+                    </div>
+
+                    <div class="grid-item2">
+                        <img src="../img/box-r4-3c-img.png" alt="">
+                        <p>Cardio & running</p>
+                    </div>
+
+                    <div class="grid-item2">
+                        <img src="../img/box-r4-3d-img.png" alt="">
+                        <p>Men's golf shop</p>
+                    </div>
+                </div>
+                <p class="box-bottom">Shop now on Shopbop</p>
+            </div>
+        </div>
+        <!-- raw6 -->
+        <div class="box1 box">
+            <div class="box-content">
+                <h2>Shop top sellers on Shopbop</h2>
+                <img class="r-img" src="../img/box-r5-img.png" alt="">
+                <p class="box-bottom">Shop now on Shopbop</p>
+            </div>
+        </div>
+        <div class="box2 box">
+            <div class="box-content">
+                <h2>Try 30 days FREE Amazon Music Unlimited</h2>
+                <img class="r-img" src="../img/box-r5b-img.png" alt="">
+                <p class="box-bottom">Get Amazon Music now</p>
+            </div>
+        </div>
+
+        <div class="box3 box">
+            <div class="box-content">
+                <h2>Watch the new series "Lazarus"</h2>
+                <img class="r-img" src="../img/box-r5c-img.png" alt="">
+                <p class="box-bottom">With Prime on Prime Video</p>
+            </div>
+        </div>
+        <div class="box4 box">
+            <div class="box-content">
+                <h2>Up to 50% off | International brands</h2>
+                <img class="r-img" src="../img/box-r5d-img.png" alt="">
+                <p class="box-bottom">See all ofers</p>
+            </div>
+        </div>
+        <!-- raw7 -->
+        <div class="box1 box">
+            <div class="box-content">
+                <h2>Bulk order discounts + Up to 18% GST savings</h2>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <img src="../img/box-r6-img.png" alt="">
+                        <p>Up to 45% off | Laptops</p>
+                    </div>
+
+                    <div class="grid-item">
+                        <img src="../img/box-r6b-img.png" alt="">
+                        <p>Up to 60% off | Kitchen </p>
+                    </div>
+
+                    <div class="grid-item">
+                        <img src="../img/box-r6c-img.png" alt="">
+                        <p>Min. 50% off</p>
+                    </div>
+
+                    <div class="grid-item">
+                        <img src="../img/box-r6d-img.png" alt="">
+                        <p>Register using GST</p>
+                    </div>
+                </div>
+                <p class="box-bottom">Create a Free account</p>
+            </div>
+        </div>
+        <div class="box2 box">
+            <div class="box-content">
+                <h2>Discover luxury brands</h2>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <img src="../img/box-r6-2a-img.png" alt="">
+                        <p>Moon Boot</p>
+                    </div>
+
+                    <div class="grid-item">
+                        <img src="../img/box-r6-2b-img.png" alt="">
+                        <p>Perfect Moment</p>
+                    </div>
+
+                    <div class="grid-item">
+                        <img src="../img/box-r6-2c-img.png" alt="">
+                        <p>Altuzarra</p>
+                    </div>
+
+                    <div class="grid-item">
+                        <img src="../img/box-r6-2d-img.png" alt="">
+                        <p>Dr. Barbara Sturm</p>
+                    </div>
+                </div>
+                <p class="box-bottom">Shop designer brands</p>
+            </div>
+        </div>
+        <div class="box3 box">
+            <div class="box-content">
+                <h2>Appliances for your home | Up to 55% off</h2>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <img src="../img/box-r6-3a-img.png" alt="">
+                        <p>Air conditioners</p>
+                    </div>
+
+                    <div class="grid-item">
+                        <img src="../img/box-r6-3b-img.png" alt="">
+                        <p>Refrigerators</p>
+                    </div>
+
+                    <div class="grid-item">
+                        <img src="../img/box-r6-3c-img.png" alt="">
+                        <p>Microwaves</p>
+                    </div>
+
+                    <div class="grid-item">
+                        <img src="../img/box-r6-3d-img.png" alt="">
+                        <p>Washing machines</p>
+                    </div>
+                </div>
+                <p class="box-bottom">See more</p>
+            </div>
+        </div>
+        <div class="box4 box">
+            <div class="box-content">
+                <h2>Up to 70% off | Gift hampers & more</h2>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <img src="../img/box-r6-4a-img.png" alt="">
+                    </div>
+
+                    <div class="grid-item">
+                        <img src="../img/box-r6-4b-img.png" alt="">
+                    </div>
+
+                    <div class="grid-item">
+                        <img src="../img/box-r6-4c-img.png" alt="">
+                    </div>
+
+                    <div class="grid-item">
+                        <img src="../img/box-r6-4d-img.png" alt="">
+                    </div>
+                </div>
+                <p class="box-bottom">See more</p>
+            </div>
+        </div>
+        <!-- raw8 -->
+        <div class="box rbox">
+            <h2>Best Sellers in Beauty & Personal Care</h2>
+            <div class="slider-container">
+                <button class="arrowr left">&#10094;</button>
+                <div class="product-slider">
+                    <div class="product">
+                        <img src="../img/product1.png" alt="">
+                    </div>
+
+                    <div class="product">
+                        <img src="../img/product2.png" alt="">
+                    </div>
+
+                    <div class="product">
+                        <img src="../img/product3.png" alt="">
+                    </div>
+
+                    <div class="product">
+                        <img src="../img/product4.png" alt="">
+                    </div>
+
+                    <div class="product">
+                        <img src="../img/product5.png" alt="">
+                    </div>
+
+                    <div class="product">
+                        <img src="../img/product6.png" alt="">
+                    </div>
+
+                    <div class="product">
+                        <img src="../img/product7.png" alt="">
+                    </div>
+
+                    <div class="product">
+                        <img src="../img/product8.png" alt="">
+                    </div>
+                </div>
+
+                <button class="arrowr right">&#10095;</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="foot-panel1">
+            Back to top
+        </div>
+        <div class="foot-panel2">
+            <ul>
+                <p>Get to Know Us</p>
+                <a>Careers</a>
+                <a>Blog</a>
+                <a>About Amazon</a>
+                <a>Investor Relations</a>
+                <a>Amazon Devices</a>
+                <a>Amazon Science</a>
+            </ul>
+            <ul>
+                <p>Make Money with Us</p>
+                <a>Sell products on Amazon</a>
+                <a>Sell on Amazon Business</a>
+                <a>Sell apps on Amazon</a>
+                <a>Become an Affiliate</a>
+                <a>Advertise Your Products</a>
+                <a>Self-Publish with Us</a>
+                <a>Host an Amazon Hub</a>
+                <a>›See More Make Money with Us</a>
+            </ul>
+            <ul>
+                <p>Amazon Payment Products</p>
+                <a>Amazon Business Card</a>
+                <a>Shop with Points</a>
+                <a>Reload Your Balance</a>
+                <a>Amazon Currency Converter</a>
+            </ul>
+            <ul>
+                <p>Let Us Help You</p>
+                <a>Amazon and COVID-19</a>
+                <a>Your Account</a>
+                <a>Shipping Rates & Policies</a>
+                <a>Returns & Replacements</a>
+                <a>Manage Your Content and Devices</a>
+                <a>Help</a>
+            </ul>
+        </div>
+        <div class="foot-panel3">
+            <div class="logo"></div>
+        </div>
+        <div class="foot-panel4">
+            <div class="pages">
+                <a>Conditions of Use</a>
+                <a>Privacy Notice</a>
+                <a>Consumer Health Data Privacy Disclosure</a>
+                <a>Your Ads Privacy Choices</a>
+            </div>
+            <div class="copyright">
+                © 1996-2026, Amazon.com, Inc. or its affiliates
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
