@@ -36,7 +36,9 @@ An e-commerce web application that allows users to browse products, add items to
 
 1. Install XAMPP  
 2. Start **Apache** and **MySQL**
-
+3. Copy project folder to `htdocs`  
+4. Import database in **phpMyAdmin**  
+5. Open browser and go to:
 ---
 
 ## 💡 Future Improvements
@@ -60,6 +62,4 @@ An e-commerce web application that allows users to browse products, add items to
 ## ⭐ Support
 
 If you like this project, give it a ⭐ on GitHub!
-4. Copy project folder to `htdocs`  
-5. Import database in **phpMyAdmin**  
-6. Open browser and go to:
+
